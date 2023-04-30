@@ -1,0 +1,39 @@
+body {
+  background-image: url("/image/apple.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.profile-title {
+  font-size: 50px;
+  padding: 50px;
+}
+
+.profile-contents {
+  text-align: center;
+}
+
+.likes-title {
+  font-size: 50px;
+  padding: 50px;
+}
+
+.item {
+  width: 33%;
+  float: left;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.footer {
+  align-items: center;
+}
+
+.sns-btn {
+  display: flex;
+  list-style: none;
+}
+
+.sns-btn li {
+  padding: 10px;
+}
